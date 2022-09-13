@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    min-height: 15vh;
+    min-width:100vw;
+    background-color:#ff1a1a;
+}
+.header h1{
+    font-size: 21px;
+    position: absolute;
+    top:5vh;
+    left:5vw;
+    font-family: monospace;
+    color: white;
+}
+.hero{
+    height:60vh;
+    width:90vw;
+    position: absolute;
+    left:5vw;
+}
+.hero ul{
+    list-style: none;
+}
+.hero ul li{
+    width:40vw;
+    position: relative;
+    top:15vh;
+    left:34vw;
+    margin:30px;
+    font-size: 21px;
+    font-family: monospace;
+}

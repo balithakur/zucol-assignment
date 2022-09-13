@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    min-height: 15vh;
+    min-width:100vw;
+    background-color:#ff1a1a;
+}
+.header h1{
+    font-size: 21px;
+    position: absolute;
+    top:5vh;
+    left:5vw;
+    font-family: monospace;
+    color: white;
+}
+.hero{
+    position: absolute;
+    left:5vw;
+    width: 90vw;
+    height: 60vh;
+}
+.hero input{
+    position: relative;
+    top:15vh;
+    left:36.6vw;
+    min-height: 30px;
+    max-width: 50vh;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: monospace;
+}
+.hero img{
+    position: relative;
+    top:16vh;
+    left:35vw;
+    height: 21px;
+    width: 21px;
+}
+.hero button{
+    position: absolute;
+    top:55vh;
+    left:41vw;
+    height: 30px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: black;
+    color: azure;
+}
+@media only screen and (min-width:250px) and (max-width:500px) {
+    .hero img{
+        position: relative;
+        left:15vw;
+    }
+    .hero input{
+        position: relative;
+        left:22.6vw;
+    }
+}
