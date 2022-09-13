@@ -44,9 +44,9 @@
     width: 21px;
 }
 .hero button{
-    position: fixed;
-    top:55vh;
-    left:41vw;
+    position: absolute;
+    top:400px;
+    left:638px;
     height: 30px;
     width: 90px;
     border: 1px solid black;
