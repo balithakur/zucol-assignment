@@ -33,3 +33,10 @@
     font-size: 21px;
     font-family: monospace;
 }
+@media only screen and (min-width:300px) and (max-width:550px){
+    .hero ul li{
+        width:66vw;
+        left:10vw;
+        font-size: 16px;
+    }
+}
