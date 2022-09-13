@@ -46,7 +46,7 @@
 .hero button{
     position: absolute;
     top:332px;
-    left:520px;
+    left:41vw;
     height: 30px;
     width: 90px;
     border: 1px solid black;
@@ -64,5 +64,13 @@
     .hero input{
         position: relative;
         left:22.6vw;
+    }
+    .hero button{
+        top:360px;
+    }
+}
+@media only screen and (min-height:1000px) {
+    .hero button{
+        top:400px;
     }
 }
